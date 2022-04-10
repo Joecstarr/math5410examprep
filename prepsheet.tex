@@ -309,6 +309,21 @@ usually written $\mu(a, b)=a \cdot b$, such that for all $a, b, c \in A$ and $r 
 (i) (associativity) $(a \cdot b) \cdot c=a \cdot(b \cdot c)$,\[\ \]
 (ii) (distributivity) $(a+b) \cdot c=a \cdot c+b \cdot c$ and $a \cdot(b+c)=a \cdot b+a \cdot c$,\[\ \]
 (iii) (homogeneity) $r(a \cdot b)=(r a) \cdot b=a \cdot(r b)$.}
+\boxset{locally Euclidean of dimension $n$}
+{A topological space $M$ is locally Euclidean of dimension $n$ if every point $p$ in $M$ has a neighborhood $U$ such that there is a homeomorphism $\phi$ from $U$ onto an open subset of $\mathbb{R}^{n}$.}
+\boxset{chart centered at $p$}
+{We call the pair $\left(U, \phi: U \rightarrow \mathbb{R}^{n}\right)$ a chart, $U$ a coordinate neighborhood or a coordinate open set, and $\phi$ a coordinate map or a coordinate system on $U$. We say that a chart $(U, \phi)$ is centered at $p \in U$ if $\phi(p)=0$.}
+\boxset{$C^{\infty}$-compatible charts and transition functions}
+{Two charts $\left(U, \phi: U \rightarrow \mathbb{R}^{n}\right),\left(V, \psi: V \rightarrow \mathbb{R}^{n}\right)$ of a topological manifold are $C^{\infty}$-compatible if the two maps
+$\phi \circ \psi^{-1}: \psi(U \cap V) \rightarrow \phi(U \cap V), \quad \psi \circ \phi^{-1}: \phi(U \cap V) \rightarrow \psi(U \cap V)$
+$\operatorname{Smod}^{\sin ^{\text {2n }}} \quad \mathbb{R}^{n} \stackrel{\varphi^{\prime \prime}}{\rightarrow} U \cap V \dot{\longrightarrow} \mathbb{R}^{n}$
+are $C^{\infty}$ }
+\boxset{Atlas}
+{A $C^{\infty}$ atlas or simply an atlas on a locally Euclidean space $M$ is a collection $\mathfrak{U}=\left\{\left(U_{\alpha}, \phi_{\alpha}\right)\right\}$ of pairwise $C^{\infty}$-compatible charts that cover $M$, i.e., such that $M=\bigcup_{\alpha} U_{\alpha}$.}
+\boxset{Suppose $F: N \rightarrow M$ is $\rule{1cm}{0.15mm}$ at $p \in N$. If $(U, \phi)$ is any chart about $p$ in $N$ and $(V, \psi)$ is any chart about $F(p)$ in $M$, then $\rule{1cm}{0.15mm}$ is $C^{\infty}$ at $\phi(p)$.}
+{Suppose $F: N \rightarrow M$ is $C^{\infty}$ at $p \in N$. If $(U, \phi)$ is any chart about $p$ in $N$ and $(V, \psi)$ is any chart about $F(p)$ in $M$, then $\psi \circ F \circ \phi^{-1}$ is $C^{\infty}$ at $\phi(p)$.}
+\boxset{Inverse function theorem for manifolds}
+{Let $F: N \rightarrow M$ be a $C^{\infty}$ map between two manifolds of the same dimension, and $p \in N$. Suppose for some charts $(U, \phi)=\left(U, x^{1}, \ldots, x^{n}\right)$ about $p$ in $N$ and $(V, \psi)=\left(V, y^{1}, \ldots, y^{n}\right)$ about $F(p)$ in $M, F(U) \subset V$. Set $F^{i}=y^{i} \circ F$. Then $F$ is locally invertible at $p$ if and only if its Jacobian determinant $\operatorname{det}\left[\partial F^{i} / \partial x^{j}(p)\right]$ is nonzero.}
 \boxset{ }
 {}
 \boxset{ }
@@ -441,16 +456,5 @@ usually written $\mu(a, b)=a \cdot b$, such that for all $a, b, c \in A$ and $r 
 {}
 \boxset{ }
 {}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
 
 \end{document}
