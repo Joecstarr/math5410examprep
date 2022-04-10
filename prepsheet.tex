@@ -275,22 +275,40 @@ Let $q$ be a point in $M$, and $U$ a neighborhood of $q$. }
 {Let $\left\{U_{\alpha}\right\}_{\alpha \in \mathrm{A}}$ be an open cover of a manifold $M$.\[\ \]
 (i) There is a $C^{\infty}$ partition of unity $\left\{\varphi_{k}\right\}_{k=1}^{\infty}$ with every $\varphi_{k}$ having compact support such that for each $k$, supp $\varphi_{k} \subset U_{\alpha}$ for some $\alpha \in \mathrm{A}$.\[\ \]
 (ii) If we do not require compact support, then there is a $C^{\infty}$ partition of unity $\left\{\rho_{\alpha}\right\}$ subordinate to $\left\{U_{\alpha}\right\}$.}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
+\boxset{Smoothness of a vector field in terms of coefficients}
+{Let $X$ be a vector field on a manifold $M$. The following are equivalent:\[\ \]
+(i) The vector field $X$ is smooth on $M$.\[\ \]
+(ii) The manifold $M$ has an atlas such that on any chart $(U, \phi)=\left(U, x^{1}, \ldots, x^{n}\right)$ of the atlas, the coefficients $a^{i}$ of $X=\sum a^{i} \partial / \partial x^{i}$ relative to the frame $\partial / \partial x^{i}$ are all smooth.\[\ \]
+(iii) On any chart $(U, \phi)=\left(U, x^{1}, \ldots, x^{n}\right)$ on the manifold $M$, the coefficients $a^{i}$ of $X=\sum a^{i} \partial / \partial x^{i}$ relative to the frame $\partial / \partial x^{i}$ are all smooth .}
+\boxset{integral curve}
+{Let $X$ be a $C^{\infty}$ vector field on a manifold $M$, and $p \in M$. An integral curve of $X$ is a smooth curve $c:] a, b\left[\rightarrow M\right.$ such that $c^{\prime}(t)=X_{c(t)}$ for all $\left.t \in\right] a, b[$. Usually we assume that the open interval $] a, b[$ contains 0 . In this case, if $c(0)=p$, then we say that $c$ is an integral curve starting at $p$ and call $p$ the initial point of $c$. To show the dependence of such an integral curve on the initial point $p$, we also write $c_{t}(p)$ instead of $c(t)$. An integral curve is maximal if its domain cannot be extended to a larger interval.}
+\boxset{local flow about a point $p$}
+{A local flow about a point $p$ in an open set $U$ of a manifold is a $C^{\infty}$ function
+\[F:]-\varepsilon, \varepsilon[\times W \rightarrow U\]
+where $\varepsilon$ is a positive real number and $W$ is a neighborhood of $p$ in $U$, such that writing $F_{t}(q)=F(t, q)$, we have\[\ \]
+(i) $F_{0}(q)=q$ for all $q \in W$,\[\ \]
+(ii) $F_{t}\left(F_{s}(q)\right)=F_{t+s}(q)$ whenever both sides are defined.}
+\boxset{Lie bracket}
+{Given two smooth vector fields $X$ and $Y$ on $U$ and $p \in U$, we define their Lie bracket $[X, Y]$ at $p$ to be
+\[[X, Y]_{p} f=\left(X_{p} Y-Y_{p} X\right) f\]
+for any germ $f$ of a $C^{\infty}$ function at $p$. }
+\boxset{Lie algebra}
+{Let $K$ be a field. A Lie algebra over $K$ is a vector space $V$ over $K$ together with a product $[,]: V \times V \rightarrow$,$V , called the bracket, satisfying the following$ properties: for all $a, b \in K$ and $X, Y, Z \in V$,\[\ \]
+(i) (bilinearity) $[a X+b Y, Z]=a[X, Z]+b[Y, Z]$,\[[Z, a X+b Y]=a[Z, X]+b[Z, Y] \text {, }\]
+(ii) (anticommutativity) $[Y, X]=-[X, Y]$,\[\ \]
+(iii) (Jacobi identity) $\sum_{\text {cyclic }}[X,[Y, Z]]=0$.\[\ \]}
+\boxset{derivation of a Lie algebra}
+{A derivation of a Lie algebra $V$ over a field $K$ is a $K$-linear map $D: V \rightarrow V$ satisfying the product rule
+\[D[Y, Z]=[D Y, Z]+[Y, D Z] \quad \text { for } Y, Z \in V\]}
+\boxset{related vector fields}
+{Let $F: N \rightarrow M$ be a smooth map of manifolds. A vector field $X$ on $N$ is $F$-related to a vector field $\bar{X}$ on $M$ if for all $p \in N$,\[F_{*, p}\left(X_{p}\right)=\bar{X}_{F(p)}\]}
+\boxset{algebra over a field $K$}
+{An algebra over a field $K$ is a vector space $A$ over $K$ with a multiplication map
+\[\mu: A \times A \rightarrow A,\]
+usually written $\mu(a, b)=a \cdot b$, such that for all $a, b, c \in A$ and $r \in K$,\[\ \]
+(i) (associativity) $(a \cdot b) \cdot c=a \cdot(b \cdot c)$,\[\ \]
+(ii) (distributivity) $(a+b) \cdot c=a \cdot c+b \cdot c$ and $a \cdot(b+c)=a \cdot b+a \cdot c$,\[\ \]
+(iii) (homogeneity) $r(a \cdot b)=(r a) \cdot b=a \cdot(r b)$.}
 \boxset{ }
 {}
 \boxset{ }
