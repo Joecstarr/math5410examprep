@@ -95,11 +95,13 @@ with open("prepsheet.tex") as file:
 
   finds = re.findall( reg, data)
   for find in finds:
-    name = html.escape(re.sub(r"\$(.*?)\$",r"\(\1\)",find[0]))
-    defintion = html.escape(re.sub(r"\$(.*?)\$",r"\(\1\)",find[1]))
+    name = re.sub(r"\$(.*?)\$",r"\(\1\)",find[0])
+    name = html.escape(re.sub(r"\\rule\{1cm\}\{0\.15mm\}",r"\\Rule{1cm}{0.15mm}{0.15mm}",name))
+    defintion = re.sub(r"\$(.*?)\$",r"\(\1\)",find[1])
+    defintion = html.escape(re.sub(r"\\rule\{1cm\}\{0\.15mm\}",r"\\Rule{1cm}{0.15mm}{0.15mm}",defintion))
     my_note = genanki.Note(
               model=def_model,
               fields=[name, defintion],
-              guid=f"prepsheet.tex-{name}")
+              guid=f"prepsheet5410.tex-{name}")
     def_deck.add_note(my_note)
-  genanki.Package(def_deck).write_to_file('prepsheet.apkg')
+  genanki.Package(def_deck).write_to_file('prepsheet-5410.apkg')
