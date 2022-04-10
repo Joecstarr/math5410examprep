@@ -154,307 +154,106 @@
 }
 
 \begin{document}
-
-% --------------------------------------------------------------
-%                         Start here
-% --------------------------------------------------------------
-% \pagestyle{fancy}
-% \fancyhf{}
-% \rhead{Math 5210 Homework 7}
-% \lhead{ }
-% \rfoot{Page \thepage}
-\centering{{\fontsize{26pt}
-{24pt}\selectfont{\underline{\smash{By Heart}}}}}\par
-\newpage
-
-\boxset{immersion at $p \in N$}
-{A $C^{\infty} \operatorname{map} F: N \rightarrow M$ is said to be an immersion
-at $p \in N$ if its differential $F_{*, p}: T_{p} N \rightarrow T_{F(p)} M$ is injective,}
-\boxset{submersion at $p \in N$}
-{A $C^{\infty} \operatorname{map} F: N \rightarrow M$ is said to be an submersion
-at $p \in N$ if its differential $F_{*, p}: T_{p} N \rightarrow T_{F(p)} M$ is surjective,}
-\boxset{immersion}
-{We call $F$ an immersion
-if it is an immersion at every $p \in N$}
-\boxset{submersion}
-{We call $F$ an submersion if it is a submersion
-at every $p \in N$.}
-\boxset{rank}
+\boxset{immersion at $p \in N$ }
+{A $C^{\infty} \operatorname{map} F: N \rightarrow M$ is said to be an immersion at $p \in N$ if its differential $F_{*, p}: T_{p} N \rightarrow T_{F(p)} M$ is injective,}
+\boxset{submersion at $p \in N$ }
+{A $C^{\infty} \operatorname{map} F: N \rightarrow M$ is said to be an submersion at $p \in N$ if its differential $F_{*, p}: T_{p} N \rightarrow T_{F(p)} M$ is surjective,}
+\boxset{immersion }
+{We call $F$ an immersion if it is an immersion at every $p \in N$}
+\boxset{submersion }
+{We call $F$ an submersion if it is a submersion at every $p \in N$.}
+\boxset{rank }
 {The rank of a linear transformation $L: V \rightarrow W$ between finite-dimensional vector spaces is the dimension of the image $L(V)$ as a subspace of $W$, while the rank of a matrix $A$ is the dimension of its column space. If $L$ is represented by a matrix $A$}
-\boxset{rank at a point $p$ in $N$}
+\boxset{rank at a point $p$ in $N$ }
 {Now consider a smooth map $F: N \rightarrow M$ of manifolds. Its rank at a point $p$ in $N$, denoted by $\operatorname{rk} F(p)$, is defined as the rank of the differential $F_{*, p}: T_{p} N \rightarrow T_{F(p)} M$.}
-\boxset{critical point}
-{A point $p$ in $N$ is a critical point of $F$ if the differential
-\[F_{*, p}: T_{p} N \rightarrow T_{F(p)} M\]
-fails to be surjective.}
-\boxset{regular point}
+\boxset{critical point }
+{A point $p$ in $N$ is a critical point of $F$ if the differential \[F_{*, p}: T_{p} N \rightarrow T_{F(p)} M\] fails to be surjective.}
+\boxset{regular point }
 {It is a regular point of $F$ if the differential $F_{*, p}$ is surjective.}
-\boxset{critical value or regular value}
+\boxset{critical value or regular value }
 {A point in $M$ is a critical value if it is the image of a critical point; otherwise it is a regular value }
-\boxset{For a real-valued function $f: M \rightarrow \mathbb{R}$, a point $p$
-in $M$ is a $\rule{1cm}{0.15mm}$ if and only if relative to some chart
-$\left(U, x^{1}, \ldots, x^{n}\right)$ containing $p$, all the partial
-derivatives satisfy
-\[\rule{1cm}{0.15mm}\]}
-{For a real-valued function $f: M \rightarrow \mathbb{R}$, a point $p$ in $M$ is a critical point if and only if relative to some chart $\left(U, x^{1}, \ldots, x^{n}\right)$ containing $p$, all the partial derivatives satisfy
-\[\frac{\partial f}{\partial x^{j}}(p)=0, \quad j=1, \ldots, n\]}
-\boxset{regular submanifold of dimension $k$}
+\boxset{For a real-valued function $f: M \rightarrow \mathbb{R}$, a point $p$ in $M$ is a $\rule{1cm}{0.15mm}$ if and only if relative to some chart $\left(U, x^{1}, \ldots, x^{n}\right)$ containing $p$, all the partial derivatives satisfy \[\rule{1cm}{0.15mm}\] }
+{For a real-valued function $f: M \rightarrow \mathbb{R}$, a point $p$ in $M$ is a critical point if and only if relative to some chart $\left(U, x^{1}, \ldots, x^{n}\right)$ containing $p$, all the partial derivatives satisfy \[\frac{\partial f}{\partial x^{j}}(p)=0, \quad j=1, \ldots, n\]}
+\boxset{regular submanifold of dimension $k$ }
 {A subset $S$ of a manifold $N$ of dimension $n$ is a regular submanifold of dimension $k$ if for every $p \in S$ there is a coordinate neighborhood $(U, \phi)=\left(U, x^{1}, \ldots, x^{n}\right)$ of $p$ in the maximal atlas of $N$ such that $U \cap S$ is defined by the vanishing of $n-k$ of the coordinate functions.}
-\boxset{adapted chart }
+\boxset{adapted chart  }
 {For a chart of a regular submanifold defined by the vanishing of $n-k$ of the coordinate functions. We call such a chart $(U, \phi)$ in $N$ an adapted chart relative to $S$. }
-\boxset{codimension}
+\boxset{codimension }
 {If $S$ is a regular submanifold of dimension $k$ in a manifold $N$ of dimension $n$, then $n-k$ is said to be the codimension of $S$ in $N$.}
-\boxset{level set}
-{A level set of a map $F: N \rightarrow M$ is a subset
-\[F^{-1}(\{c\})=\{p \in N \mid F(p)=c\}\]
-for some $c \in M$. The usual notation for a level set is $F^{-1}(c)$}
-\boxset{level of a level set}
+\boxset{level set }
+{A level set of a map $F: N \rightarrow M$ is a subset \[F^{-1}(\{c\})=\{p \in N \mid F(p)=c\}\] for some $c \in M$. The usual notation for a level set is $F^{-1}(c)$}
+\boxset{level of a level set }
 {The value $c \in M$ is called the level of the level set $F^{-1}(c)$.}
-\boxset{regular level set}
+\boxset{regular level set }
 {The inverse image $F^{-1}(c)$ of a regular value $c$ is called a regular level set.}
-\boxset{Let $g: N \rightarrow \mathbb{R}$ be a $C^{\infty}$ function. A $\rule{1cm}{0.15mm}$ $g^{-1}(c)$ of level c of the function $g$ is the $\rule{1cm}{0.15mm}$ $f^{-1}(0)$ of the function $\rule{1cm}{0.15mm}$.}
+\boxset{Let $g: N \rightarrow \mathbb{R}$ be a $C^{\infty}$ function. A $\rule{1cm}{0.15mm}$ $g^{-1}(c)$ of level c of the function $g$ is the $\rule{1cm}{0.15mm}$ $f^{-1}(0)$ of the function $\rule{1cm}{0.15mm}$. }
 {Let $g: N \rightarrow \mathbb{R}$ be a $C^{\infty}$ function. A regular level set $g^{-1}(c)$ of level c of the function $g$ is the regular zero set $f^{-1}(0)$ of the function $f=g-c$.}
-\boxset{Regular level set theorem}
+\boxset{Regular level set theorem }
 {Let $F: N \rightarrow M$ be a $C^{\infty}$ map of manifolds, with $\operatorname{dim} N=n$ and $\operatorname{dim} M=m$. Then a nonempty regular level set $F^{-1}(c)$, where $c \in M$, is a regular submanifold of $N$ of dimension equal to $n-m$.}
-\boxset{Constant rank theorem}
-{Let $N$ and $M$ be manifolds of dimensions $n$ and $m$ respectively. Suppose $f: N \rightarrow M$ has constant rank $k$ in a neighborhood of a point $p$ in $N$. Then there are charts $(U, \phi)$ centered at $p$ in $N$ and $(V, \psi)$ centered at $f(p)$ in $M$ such that for $\left(r^{1}, \ldots, r^{n}\right)$ in $\phi(U)$,
-\[\left(\psi \circ f \circ \phi^{-1}\right)\left(r^{1}, \ldots, r^{n}\right)=\left(r^{1}, \ldots, r^{k}, 0, \ldots, 0\right)\]}
-\boxset{Constant-rank level set theorem}
+\boxset{Constant rank theorem }
+{Let $N$ and $M$ be manifolds of dimensions $n$ and $m$ respectively. Suppose $f: N \rightarrow M$ has constant rank $k$ in a neighborhood of a point $p$ in $N$. Then there are charts $(U, \phi)$ centered at $p$ in $N$ and $(V, \psi)$ centered at $f(p)$ in $M$ such that for $\left(r^{1}, \ldots, r^{n}\right)$ in $\phi(U)$, \[\left(\psi \circ f \circ \phi^{-1}\right)\left(r^{1}, \ldots, r^{n}\right)=\left(r^{1}, \ldots, r^{k}, 0, \ldots, 0\right)\]}
+\boxset{Constant-rank level set theorem }
 {Let $f: N \rightarrow M$ be a $C^{\infty}$ map of manifolds and $c \in M$. If $f$ has constant rank $k$ in a neighborhood of the level set $f^{-1}(c)$ in $N$, then $f^{-1}(c)$ is a regular submanifold of $N$ of codimension $k$.}
-\boxset{
-$f_{*, p} $ is $\rule{1cm}{0.15mm}$ $ \Longleftrightarrow n \leq m $ and $\operatorname{rk}\left[\partial f^{i} / \partial x^{j}(p)\right]=n$\[\ \]
-
-$f_{*, p} $ is $\rule{1cm}{0.15mm}$ $ \Longleftrightarrow n \geq m $ and $ \operatorname{rk}\left[\partial f^{i} / \partial x^{j}(p)\right]=m $}
-{$f_{*, p} $ is injective $ \Longleftrightarrow n \leq m $ and $\operatorname{rk}\left[\partial f^{i} / \partial x^{j}(p)\right]=n$\[\ \]
-$f_{*, p} $ is surjective $ \Longleftrightarrow n \geq m $ and $ \operatorname{rk}\left[\partial f^{i} / \partial x^{j}(p)\right]=m $}
-\boxset{Immersion theorem}
-{Let $N$ and $M$ be manifolds of dimensions $n$ and $m$ respectively. Suppose $f: N \rightarrow M$ is an immersion at $p \in N$. Then there are charts $(U, \phi)$ centered at $p$ in $N$ and $(V, \psi)$ centered at $f(p)$ in $M$ such that in a neighborhood of $\phi(p)$,
-\[\left(\psi \circ f \circ \phi^{-1}\right)\left(r^{1}, \ldots, r^{n}\right)=\left(r^{1}, \ldots, r^{n}, 0, \ldots, 0\right) .\]}
-\boxset{Submersion theorem}
-{Let $N$ and $M$ be manifolds of dimensions $n$ and $m$ respectively. Suppose $f: N \rightarrow M$ is a submersion at $p$ in $N$. Then there are charts $(U, \phi)$ centered at $p$ in $N$ and $(V, \psi)$ centered at $f(p)$ in $M$ such that in a neighborhood of $\phi(p)$,
-\[\left(\psi \circ f \circ \phi^{-1}\right)\left(r^{1}, \ldots, r^{m}, r^{m+1}, \ldots, r^{n}\right)=\left(r^{1}, \ldots, r^{m}\right)\]}
-\boxset{embedding}
-{A $C^{\infty}$ map $f: N \rightarrow M$ is called an embedding if\[\ \]
-(i) it is a one-to-one immersion and\[\ \]
-(ii) the image $f(N)$ with the subspace topology is homeomorphic to $N$ under $f$. (The phrase "one-to-one" in this definition is redundant, since a homeomorphism is necessarily one-to-one.)}
-\boxset{Suppose $f: N \rightarrow M$ is $C^{\infty}$ and the image of $f$ lies in a subset $S$ of $M$. If $S$ is a $\rule{1cm}{0.15mm}$ of $M$, then the $\rule{1cm}{0.15mm}$ is $C^{\infty}$.}
+\boxset{ $f_{*, p} $ is $\rule{1cm}{0.15mm}$ $ \Longleftrightarrow n \leq m $ and $\operatorname{rk}\left[\partial f^{i} / \partial x^{j}(p)\right]=n$\[\ \]  $f_{*, p} $ is $\rule{1cm}{0.15mm}$ $ \Longleftrightarrow n \geq m $ and $ \operatorname{rk}\left[\partial f^{i} / \partial x^{j}(p)\right]=m $ }
+{$f_{*, p} $ is injective $ \Longleftrightarrow n \leq m $ and $\operatorname{rk}\left[\partial f^{i} / \partial x^{j}(p)\right]=n$\[\ \] $f_{*, p} $ is surjective $ \Longleftrightarrow n \geq m $ and $ \operatorname{rk}\left[\partial f^{i} / \partial x^{j}(p)\right]=m $}
+\boxset{Immersion theorem }
+{Let $N$ and $M$ be manifolds of dimensions $n$ and $m$ respectively. Suppose $f: N \rightarrow M$ is an immersion at $p \in N$. Then there are charts $(U, \phi)$ centered at $p$ in $N$ and $(V, \psi)$ centered at $f(p)$ in $M$ such that in a neighborhood of $\phi(p)$, \[\left(\psi \circ f \circ \phi^{-1}\right)\left(r^{1}, \ldots, r^{n}\right)=\left(r^{1}, \ldots, r^{n}, 0, \ldots, 0\right) .\]}
+\boxset{Submersion theorem }
+{Let $N$ and $M$ be manifolds of dimensions $n$ and $m$ respectively. Suppose $f: N \rightarrow M$ is a submersion at $p$ in $N$. Then there are charts $(U, \phi)$ centered at $p$ in $N$ and $(V, \psi)$ centered at $f(p)$ in $M$ such that in a neighborhood of $\phi(p)$, \[\left(\psi \circ f \circ \phi^{-1}\right)\left(r^{1}, \ldots, r^{m}, r^{m+1}, \ldots, r^{n}\right)=\left(r^{1}, \ldots, r^{m}\right)\]}
+\boxset{embedding }
+{A $C^{\infty}$ map $f: N \rightarrow M$ is called an embedding if\[\ \] (i) it is a one-to-one immersion and\[\ \] (ii) the image $f(N)$ with the subspace topology is homeomorphic to $N$ under $f$. (The phrase "one-to-one" in this definition is redundant, since a homeomorphism is necessarily one-to-one.)}
+\boxset{Suppose $f: N \rightarrow M$ is $C^{\infty}$ and the image of $f$ lies in a subset $S$ of $M$. If $S$ is a $\rule{1cm}{0.15mm}$ of $M$, then the $\rule{1cm}{0.15mm}$ is $C^{\infty}$. }
 {Suppose $f: N \rightarrow M$ is $C^{\infty}$ and the image of $f$ lies in a subset $S$ of $M$. If $S$ is a regular submanifold of $M$, then the induced map $\tilde{f}: N \rightarrow S$ is $C^{\infty}$.}
-\boxset{tangent bundle}
-{The tangent bundle of $M$ is the union of all the tangent spaces of $M$ :
-\[T M=\bigcup_{p \in M} T_{p} M\]}
-\boxset{fiber}
+\boxset{tangent bundle }
+{The tangent bundle of $M$ is the union of all the tangent spaces of $M$ : \[T M=\bigcup_{p \in M} T_{p} M\]}
+\boxset{fiber }
 {Given any map $\pi: E \rightarrow M$, we call the inverse image $\pi^{-1}(p):=\pi^{-1}(\{p\})$ of a point $p \in M$ the fiber at $p$. The fiber at $p$ is often written $E_{p}^{\prime \prime}$.}
-\boxset{locally trivial of rank $r$}
-{A surjective smooth map $\pi: E \rightarrow M$ of manifolds is said to be locally trivial of rank $r$ if\[\ \]
-(i) each fiber $\pi^{-1}(p)$ has the structure of a vector space of dimension $r$;\[\ \]
-(ii) for each $p \in M$, there are an open neighborhood $U$ of $p$ and a fiber-preserving diffeomorphism $\phi: \pi^{-1}(U) \rightarrow U \times \mathbb{R}^{r}$ such that for every $q \in U$ the restriction
-\[\left.\phi\right|_{\pi^{-1}(q)}: \pi^{-1}(q) \rightarrow\{q\} \times \mathbb{R}^{r}\]
-is a vector space isomorphism. Such an open set $U$ is called a trivializing open set for $E$, and $\phi$ is called a trivialization of $E$ over $U$.}
-\boxset{$C^{\infty}$ vector bundle of rank $r$}
+\boxset{locally trivial of rank $r$ }
+{A surjective smooth map $\pi: E \rightarrow M$ of manifolds is said to be locally trivial of rank $r$ if\[\ \] (i) each fiber $\pi^{-1}(p)$ has the structure of a vector space of dimension $r$;\[\ \] (ii) for each $p \in M$, there are an open neighborhood $U$ of $p$ and a fiber-preserving diffeomorphism $\phi: \pi^{-1}(U) \rightarrow U \times \mathbb{R}^{r}$ such that for every $q \in U$ the restriction \[\left.\phi\right|_{\pi^{-1}(q)}: \pi^{-1}(q) \rightarrow\{q\} \times \mathbb{R}^{r}\] is a vector space isomorphism. Such an open set $U$ is called a trivializing open set for $E$, and $\phi$ is called a trivialization of $E$ over $U$.}
+\boxset{$C^{\infty}$ vector bundle of rank $r$ }
 {A $C^{\infty}$ vector bundle of rank $r$ is a triple $(E, M, \pi)$ consisting of manifolds $E$ and $M$ and a surjective smooth map $\pi: E \rightarrow M$ that is locally trivial of rank $r$. The manifold $E$ is called the total space of the vector bundle and $M$ the base space. By abuse of language, we say that $E$ is a vector bundle over $M$. For any regular submanifold}
-\boxset{section}
+\boxset{section }
 {A section of a vector bundle $\pi: E \rightarrow M$ is a map $s: M \rightarrow E$ such that $\pi \circ s=\mathbb{1}_{M}$, the identity map on $M$.}
-\boxset{vector field $X$ on a manifold $M$}
+\boxset{vector field $X$ on a manifold $M$ }
 {A vector field $X$ on a manifold $M$ is a function that assigns a tangent vector $X_{p} \in T_{p} M$ to each point $p \in M$. In terms of the tangent bundle, a vector field on $M$ is simply a section of the tangent bundle $\pi: T M \rightarrow M$ and the vector field is smooth if it is smooth as a map from $M$ to $T M$.}
-\boxset{frame}
-{A frame for a vector bundle $\pi: E \rightarrow M$ over an open set $U$ is a collection of sections $s_{1}, \ldots, s_{r}$ of $E$ over $U$ such that at each point $p \in U$, the elements $s_{1}(p), \ldots, s_{r}(p)$ form a basis for the fiber $E_{p}:=\pi^{-1}(p)$. A frame $s_{1}, \ldots, s_{r}$ is said to be smooth or $C^{\infty}$
-if $s_{1}, \ldots, s_{r}$ are $C^{\infty}$ as sections of $E$ over $U$. A frame for the tangent bundle $T M \rightarrow M$ over an open set $U$ is simply called a frame on $U$.}
-\boxset{support of a real-valued function}
-{Recall that $\mathbb{R}^{\times}$ denotes the set of nonzero real numbers. The support of a real-valued function $f$ on a manifold $M$ is defined to be the closure in $M$ of the subset on which $f \neq 0$ :
-\[\operatorname{supp} f=\operatorname{cl}_{M}\left(f^{-1}\left(\mathbb{R}^{\times}\right)\right)=\text {closure of }\{q \in M \mid f(q) \neq 0\} \text { in } M .{ }^{1}\]
-Let $q$ be a point in $M$, and $U$ a neighborhood of $q$. }
-\boxset{bump function }
+\boxset{frame }
+{A frame for a vector bundle $\pi: E \rightarrow M$ over an open set $U$ is a collection of sections $s_{1}, \ldots, s_{r}$ of $E$ over $U$ such that at each point $p \in U$, the elements $s_{1}(p), \ldots, s_{r}(p)$ form a basis for the fiber $E_{p}:=\pi^{-1}(p)$. A frame $s_{1}, \ldots, s_{r}$ is said to be smooth or $C^{\infty}$ if $s_{1}, \ldots, s_{r}$ are $C^{\infty}$ as sections of $E$ over $U$. A frame for the tangent bundle $T M \rightarrow M$ over an open set $U$ is simply called a frame on $U$.}
+\boxset{support of a real-valued function }
+{Recall that $\mathbb{R}^{\times}$ denotes the set of nonzero real numbers. The support of a real-valued function $f$ on a manifold $M$ is defined to be the closure in $M$ of the subset on which $f \neq 0$ : \[\operatorname{supp} f=\operatorname{cl}_{M}\left(f^{-1}\left(\mathbb{R}^{\times}\right)\right)=\text {closure of }\{q \in M \mid f(q) \neq 0\} \text { in } M .{ }^{1}\] Let $q$ be a point in $M$, and $U$ a neighborhood of $q$. }
+\boxset{bump function  }
 {a bump function at $q$ supported in $U$ we mean any continuous nonnegative function $\rho$ on $M$ that is 1 in a neighborhood of $q$ with $\operatorname{supp} \rho \subset U$.}
-\boxset{partition of unity}
-{A $C^{\infty}$ partition of unity on a manifold is a collection of nonnegative $C^{\infty}$ functions $\left\{\rho_{\alpha}: M \rightarrow \mathbb{R}\right\} \alpha \in \mathrm{A}$ such that\[\ \]
-(i) the collection of supports, $\left\{\operatorname{supp} \rho_{\alpha}\right\}_{\alpha \in A}$, is locally finite,\[\ \]
-(ii) $\sum \rho_{\alpha}=1$.}
-\boxset{subordinate to the open cover}
+\boxset{partition of unity }
+{A $C^{\infty}$ partition of unity on a manifold is a collection of nonnegative $C^{\infty}$ functions $\left\{\rho_{\alpha}: M \rightarrow \mathbb{R}\right\} \alpha \in \mathrm{A}$ such that\[\ \] (i) the collection of supports, $\left\{\operatorname{supp} \rho_{\alpha}\right\}_{\alpha \in A}$, is locally finite,\[\ \] (ii) $\sum \rho_{\alpha}=1$.}
+\boxset{subordinate to the open cover }
 {Given an open cover $\left\{U_{\alpha}\right\}_{\alpha \in \mathrm{A}}$ of $M$, we say that a partition of unity $\left\{\rho_{\alpha}\right\}_{\alpha \in \mathrm{A}}$ is subordinate to the open cover $\left\{U_{\alpha}\right\}$ if $\operatorname{supp} \rho_{\alpha} \subset U_{\alpha}$ for every $\alpha \in \mathrm{A}$.}
-\boxset{Existence of a $C^{\infty}$ partition of unity}
-{Let $\left\{U_{\alpha}\right\}_{\alpha \in \mathrm{A}}$ be an open cover of a manifold $M$.\[\ \]
-(i) There is a $C^{\infty}$ partition of unity $\left\{\varphi_{k}\right\}_{k=1}^{\infty}$ with every $\varphi_{k}$ having compact support such that for each $k$, supp $\varphi_{k} \subset U_{\alpha}$ for some $\alpha \in \mathrm{A}$.\[\ \]
-(ii) If we do not require compact support, then there is a $C^{\infty}$ partition of unity $\left\{\rho_{\alpha}\right\}$ subordinate to $\left\{U_{\alpha}\right\}$.}
-\boxset{Smoothness of a vector field in terms of coefficients}
-{Let $X$ be a vector field on a manifold $M$. The following are equivalent:\[\ \]
-(i) The vector field $X$ is smooth on $M$.\[\ \]
-(ii) The manifold $M$ has an atlas such that on any chart $(U, \phi)=\left(U, x^{1}, \ldots, x^{n}\right)$ of the atlas, the coefficients $a^{i}$ of $X=\sum a^{i} \partial / \partial x^{i}$ relative to the frame $\partial / \partial x^{i}$ are all smooth.\[\ \]
-(iii) On any chart $(U, \phi)=\left(U, x^{1}, \ldots, x^{n}\right)$ on the manifold $M$, the coefficients $a^{i}$ of $X=\sum a^{i} \partial / \partial x^{i}$ relative to the frame $\partial / \partial x^{i}$ are all smooth .}
-\boxset{integral curve}
+\boxset{Existence of a $C^{\infty}$ partition of unity }
+{Let $\left\{U_{\alpha}\right\}_{\alpha \in \mathrm{A}}$ be an open cover of a manifold $M$.\[\ \] (i) There is a $C^{\infty}$ partition of unity $\left\{\varphi_{k}\right\}_{k=1}^{\infty}$ with every $\varphi_{k}$ having compact support such that for each $k$, supp $\varphi_{k} \subset U_{\alpha}$ for some $\alpha \in \mathrm{A}$.\[\ \] (ii) If we do not require compact support, then there is a $C^{\infty}$ partition of unity $\left\{\rho_{\alpha}\right\}$ subordinate to $\left\{U_{\alpha}\right\}$.}
+\boxset{Smoothness of a vector field in terms of coefficients }
+{Let $X$ be a vector field on a manifold $M$. The following are equivalent:\[\ \] (i) The vector field $X$ is smooth on $M$.\[\ \] (ii) The manifold $M$ has an atlas such that on any chart $(U, \phi)=\left(U, x^{1}, \ldots, x^{n}\right)$ of the atlas, the coefficients $a^{i}$ of $X=\sum a^{i} \partial / \partial x^{i}$ relative to the frame $\partial / \partial x^{i}$ are all smooth.\[\ \] (iii) On any chart $(U, \phi)=\left(U, x^{1}, \ldots, x^{n}\right)$ on the manifold $M$, the coefficients $a^{i}$ of $X=\sum a^{i} \partial / \partial x^{i}$ relative to the frame $\partial / \partial x^{i}$ are all smooth .}
+\boxset{integral curve }
 {Let $X$ be a $C^{\infty}$ vector field on a manifold $M$, and $p \in M$. An integral curve of $X$ is a smooth curve $c:] a, b\left[\rightarrow M\right.$ such that $c^{\prime}(t)=X_{c(t)}$ for all $\left.t \in\right] a, b[$. Usually we assume that the open interval $] a, b[$ contains 0 . In this case, if $c(0)=p$, then we say that $c$ is an integral curve starting at $p$ and call $p$ the initial point of $c$. To show the dependence of such an integral curve on the initial point $p$, we also write $c_{t}(p)$ instead of $c(t)$. An integral curve is maximal if its domain cannot be extended to a larger interval.}
-\boxset{local flow about a point $p$}
-{A local flow about a point $p$ in an open set $U$ of a manifold is a $C^{\infty}$ function
-\[F:]-\varepsilon, \varepsilon[\times W \rightarrow U\]
-where $\varepsilon$ is a positive real number and $W$ is a neighborhood of $p$ in $U$, such that writing $F_{t}(q)=F(t, q)$, we have\[\ \]
-(i) $F_{0}(q)=q$ for all $q \in W$,\[\ \]
-(ii) $F_{t}\left(F_{s}(q)\right)=F_{t+s}(q)$ whenever both sides are defined.}
-\boxset{Lie bracket}
-{Given two smooth vector fields $X$ and $Y$ on $U$ and $p \in U$, we define their Lie bracket $[X, Y]$ at $p$ to be
-\[[X, Y]_{p} f=\left(X_{p} Y-Y_{p} X\right) f\]
-for any germ $f$ of a $C^{\infty}$ function at $p$. }
-\boxset{Lie algebra}
-{Let $K$ be a field. A Lie algebra over $K$ is a vector space $V$ over $K$ together with a product $[,]: V \times V \rightarrow$,$V , called the bracket, satisfying the following$ properties: for all $a, b \in K$ and $X, Y, Z \in V$,\[\ \]
-(i) (bilinearity) $[a X+b Y, Z]=a[X, Z]+b[Y, Z]$,\[[Z, a X+b Y]=a[Z, X]+b[Z, Y] \text {, }\]
-(ii) (anticommutativity) $[Y, X]=-[X, Y]$,\[\ \]
-(iii) (Jacobi identity) $\sum_{\text {cyclic }}[X,[Y, Z]]=0$.\[\ \]}
-\boxset{derivation of a Lie algebra}
-{A derivation of a Lie algebra $V$ over a field $K$ is a $K$-linear map $D: V \rightarrow V$ satisfying the product rule
-\[D[Y, Z]=[D Y, Z]+[Y, D Z] \quad \text { for } Y, Z \in V\]}
-\boxset{related vector fields}
+\boxset{local flow about a point $p$ }
+{A local flow about a point $p$ in an open set $U$ of a manifold is a $C^{\infty}$ function \[F:]-\varepsilon, \varepsilon[\times W \rightarrow U\] where $\varepsilon$ is a positive real number and $W$ is a neighborhood of $p$ in $U$, such that writing $F_{t}(q)=F(t, q)$, we have\[\ \] (i) $F_{0}(q)=q$ for all $q \in W$,\[\ \] (ii) $F_{t}\left(F_{s}(q)\right)=F_{t+s}(q)$ whenever both sides are defined.}
+\boxset{Lie bracket }
+{Given two smooth vector fields $X$ and $Y$ on $U$ and $p \in U$, we define their Lie bracket $[X, Y]$ at $p$ to be \[[X, Y]_{p} f=\left(X_{p} Y-Y_{p} X\right) f\] for any germ $f$ of a $C^{\infty}$ function at $p$. }
+\boxset{Lie algebra }
+{Let $K$ be a field. A Lie algebra over $K$ is a vector space $V$ over $K$ together with a product $[,]: V \times V \rightarrow$,$V , called the bracket, satisfying the following$ properties: for all $a, b \in K$ and $X, Y, Z \in V$,\[\ \] (i) (bilinearity) $[a X+b Y, Z]=a[X, Z]+b[Y, Z]$,\[[Z, a X+b Y]=a[Z, X]+b[Z, Y] \text {, }\] (ii) (anticommutativity) $[Y, X]=-[X, Y]$,\[\ \] (iii) (Jacobi identity) $\sum_{\text {cyclic }}[X,[Y, Z]]=0$.\[\ \]}
+\boxset{derivation of a Lie algebra }
+{A derivation of a Lie algebra $V$ over a field $K$ is a $K$-linear map $D: V \rightarrow V$ satisfying the product rule \[D[Y, Z]=[D Y, Z]+[Y, D Z] \quad \text { for } Y, Z \in V\]}
+\boxset{related vector fields }
 {Let $F: N \rightarrow M$ be a smooth map of manifolds. A vector field $X$ on $N$ is $F$-related to a vector field $\bar{X}$ on $M$ if for all $p \in N$,\[F_{*, p}\left(X_{p}\right)=\bar{X}_{F(p)}\]}
-\boxset{algebra over a field $K$}
-{An algebra over a field $K$ is a vector space $A$ over $K$ with a multiplication map
-\[\mu: A \times A \rightarrow A,\]
-usually written $\mu(a, b)=a \cdot b$, such that for all $a, b, c \in A$ and $r \in K$,\[\ \]
-(i) (associativity) $(a \cdot b) \cdot c=a \cdot(b \cdot c)$,\[\ \]
-(ii) (distributivity) $(a+b) \cdot c=a \cdot c+b \cdot c$ and $a \cdot(b+c)=a \cdot b+a \cdot c$,\[\ \]
-(iii) (homogeneity) $r(a \cdot b)=(r a) \cdot b=a \cdot(r b)$.}
-\boxset{locally Euclidean of dimension $n$}
+\boxset{algebra over a field $K$ }
+{An algebra over a field $K$ is a vector space $A$ over $K$ with a multiplication map \[\mu: A \times A \rightarrow A,\] usually written $\mu(a, b)=a \cdot b$, such that for all $a, b, c \in A$ and $r \in K$,\[\ \] (i) (associativity) $(a \cdot b) \cdot c=a \cdot(b \cdot c)$,\[\ \] (ii) (distributivity) $(a+b) \cdot c=a \cdot c+b \cdot c$ and $a \cdot(b+c)=a \cdot b+a \cdot c$,\[\ \] (iii) (homogeneity) $r(a \cdot b)=(r a) \cdot b=a \cdot(r b)$.}
+\boxset{locally Euclidean of dimension $n$ }
 {A topological space $M$ is locally Euclidean of dimension $n$ if every point $p$ in $M$ has a neighborhood $U$ such that there is a homeomorphism $\phi$ from $U$ onto an open subset of $\mathbb{R}^{n}$.}
-\boxset{chart centered at $p$}
+\boxset{chart centered at $p$ }
 {We call the pair $\left(U, \phi: U \rightarrow \mathbb{R}^{n}\right)$ a chart, $U$ a coordinate neighborhood or a coordinate open set, and $\phi$ a coordinate map or a coordinate system on $U$. We say that a chart $(U, \phi)$ is centered at $p \in U$ if $\phi(p)=0$.}
-\boxset{$C^{\infty}$-compatible charts and transition functions}
-{Two charts $\left(U, \phi: U \rightarrow \mathbb{R}^{n}\right),\left(V, \psi: V \rightarrow \mathbb{R}^{n}\right)$ of a topological manifold are $C^{\infty}$-compatible if the two maps
-$\phi \circ \psi^{-1}: \psi(U \cap V) \rightarrow \phi(U \cap V), \quad \psi \circ \phi^{-1}: \phi(U \cap V) \rightarrow \psi(U \cap V)$
-$\operatorname{Smod}^{\sin ^{\text {2n }}} \quad \mathbb{R}^{n} \stackrel{\varphi^{\prime \prime}}{\rightarrow} U \cap V \dot{\longrightarrow} \mathbb{R}^{n}$
-are $C^{\infty}$ }
-\boxset{Atlas}
+\boxset{$C^{\infty}$-compatible charts and transition functions }
+{Two charts $\left(U, \phi: U \rightarrow \mathbb{R}^{n}\right),\left(V, \psi: V \rightarrow \mathbb{R}^{n}\right)$ of a topological manifold are $C^{\infty}$-compatible if the two maps $\phi \circ \psi^{-1}: \psi(U \cap V) \rightarrow \phi(U \cap V), \quad \psi \circ \phi^{-1}: \phi(U \cap V) \rightarrow \psi(U \cap V)$ $\operatorname{Smod}^{\sin ^{\text {2n }}} \quad \mathbb{R}^{n} \stackrel{\varphi^{\prime \prime}}{\rightarrow} U \cap V \dot{\longrightarrow} \mathbb{R}^{n}$ are $C^{\infty}$ }
+\boxset{Atlas }
 {A $C^{\infty}$ atlas or simply an atlas on a locally Euclidean space $M$ is a collection $\mathfrak{U}=\left\{\left(U_{\alpha}, \phi_{\alpha}\right)\right\}$ of pairwise $C^{\infty}$-compatible charts that cover $M$, i.e., such that $M=\bigcup_{\alpha} U_{\alpha}$.}
-\boxset{Suppose $F: N \rightarrow M$ is $\rule{1cm}{0.15mm}$ at $p \in N$. If $(U, \phi)$ is any chart about $p$ in $N$ and $(V, \psi)$ is any chart about $F(p)$ in $M$, then $\rule{1cm}{0.15mm}$ is $C^{\infty}$ at $\phi(p)$.}
+\boxset{Suppose $F: N \rightarrow M$ is $\rule{1cm}{0.15mm}$ at $p \in N$. If $(U, \phi)$ is any chart about $p$ in $N$ and $(V, \psi)$ is any chart about $F(p)$ in $M$, then $\rule{1cm}{0.15mm}$ is $C^{\infty}$ at $\phi(p)$. }
 {Suppose $F: N \rightarrow M$ is $C^{\infty}$ at $p \in N$. If $(U, \phi)$ is any chart about $p$ in $N$ and $(V, \psi)$ is any chart about $F(p)$ in $M$, then $\psi \circ F \circ \phi^{-1}$ is $C^{\infty}$ at $\phi(p)$.}
-\boxset{Inverse function theorem for manifolds}
+\boxset{Inverse function theorem for manifolds }
 {Let $F: N \rightarrow M$ be a $C^{\infty}$ map between two manifolds of the same dimension, and $p \in N$. Suppose for some charts $(U, \phi)=\left(U, x^{1}, \ldots, x^{n}\right)$ about $p$ in $N$ and $(V, \psi)=\left(V, y^{1}, \ldots, y^{n}\right)$ about $F(p)$ in $M, F(U) \subset V$. Set $F^{i}=y^{i} \circ F$. Then $F$ is locally invertible at $p$ if and only if its Jacobian determinant $\operatorname{det}\left[\partial F^{i} / \partial x^{j}(p)\right]$ is nonzero.}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-\boxset{ }
-{}
-
 \end{document}
